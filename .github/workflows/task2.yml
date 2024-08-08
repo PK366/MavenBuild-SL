@@ -21,7 +21,7 @@ jobs:
     - name: connect to Jenkins and deploy code on tomcat9
       uses: cross-the-world/ssh-scp-ssh-pipelines@latest
       with:
-       host: 'http://192.168.1.107'
+       host: 'http://192.168.1.107:8080'
        user: 'pk'
        pass: '12345'
        port: 8080
